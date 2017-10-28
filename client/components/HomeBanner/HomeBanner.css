@@ -1,0 +1,114 @@
+#home-banner {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('computer-hardware.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#home-banner::after {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    top: 0;
+}
+
+#home-banner .display-1 {
+    font-size: 3rem;
+}
+
+#home-banner .display-4 {
+    font-size: 1.5rem;
+}
+
+#banner-content {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 1.5rem 0;
+    z-index: 3;
+    color: #FFF;
+}
+
+#site-button-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner-social-icons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    z-index: 3;
+}
+
+#banner-social-icons svg {
+    fill: #FFF;
+    height: 50px;
+    opacity: 0.5;
+}
+
+#banner-social-icons svg:hover {
+    opacity: 1;
+}
+
+@media (min-width: 576px) and (max-width: 767px) and (orientation: landscape) {
+    #banner-content {
+        top: 17.5%;
+        background-color: transparent;
+    }
+
+    #home-banner::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    #site-button-links {
+        flex-direction: row;
+    }
+
+    #site-button-links a {
+        margin-bottom: 0!important;
+    }
+
+    #site-button-links a:last-child {
+        margin-left: .8rem!important;
+    }
+}
+
+@media (min-width: 768px) {
+    #home-banner .display-1 {
+        font-size: 5rem;
+    }
+
+    #home-banner .display-4 {
+        font-size: 2.5rem;
+    }
+
+    #banner-content {
+        top: 35%;
+    }
+
+    #site-button-links {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    #home-banner .display-1 {
+        font-size: 6rem;
+    }
+
+    #home-banner .display-4 {
+        font-size: 3rem;
+    }
+}

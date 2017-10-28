@@ -7,7 +7,7 @@ app.set('views', './server/views');
 app.set('view engine', 'pug');
 
 // Create static routes
-app.use('/dist', express.static(path.join(__dirname, 'dist'));
+app.use('/dist', express.static('dist'));
 app.use('/static', express.static('client/src'));
 
 // Retrieve routes

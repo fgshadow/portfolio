@@ -2,7 +2,7 @@ import React from 'react'
 import './NavBar.css'
 
 const NavBar = (props) => (
-    <nav id="navigation-bar" className="navbar navbar-expand-lg navbar-dark">
+    <nav id="navigation-bar" className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container">
             <div className="navbar-brand">Felipe Galaviz</div>
 
