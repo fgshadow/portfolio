@@ -1,0 +1,31 @@
+#navigation-bar {
+    background-color: #0B3C5D;
+}
+
+.dropdown-item {
+    margin: auto!important;
+}
+
+@media (min-width: 992px) {
+    #navbarNav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .navbar-nav a {
+        margin-left: 34px;
+        padding: 1rem 0 0.8rem 0;
+    }
+
+    .active {
+        border-bottom: 5px solid #FFF;
+    }
+
+    .dropdown-item {
+        text-align: center;
+    }
+}
