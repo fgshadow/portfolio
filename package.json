@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Online portfolio showcasing my projects and my interests.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "webpack --progress --colors --watch --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"

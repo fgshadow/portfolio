@@ -1,0 +1,28 @@
+#footer {
+    background-color: #1D2731;
+}
+
+#footer-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-social-icons svg {
+    height: 40px;
+    fill: #FFF;
+    opacity: 0.5;
+}
+
+#footer-social-icons svg:hover {
+    opacity: 1;
+}
+
+#footer hr {
+    background-color: #FFF;
+    opacity: 0.5;
+}
+
+#credits, #copyright {
+    color: #FFF;
+    opacity: 0.5;
+}
