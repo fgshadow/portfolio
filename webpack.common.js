@@ -6,8 +6,8 @@ module.exports = {
         home:     './client/HomePage.js',
         about:    './client/AboutPage.js',
         projects: './client/ProjectsPage.js',
-        hardware: './client/HardwareProjectsPage.js',
-        software: './client/SoftwareProjectsPage.js',
+        hardware: './client/HardwareProjectsPage/HardwareProjectsPage.js',
+        software: './client/SoftwareProjectsPage/SoftwareProjectsPage.js',
         contact:  './client/ContactPage.js'
     },
     plugins: [

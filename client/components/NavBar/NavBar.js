@@ -12,8 +12,8 @@ const NavBar = (props) => (
 
             <div id="navbarNav" className="collapse navbar-collapse">
                 <div className="navbar-nav">
-                    <a className={"nav-item nav-link " + props.homeActive}     href="/">Home</a>
-                    <a className={"nav-item nav-link " + props.aboutActive}    href="/about">About</a>
+                    <a className={"nav-item nav-link " + props.homeActive}  href="/">Home</a>
+                    <a className={"nav-item nav-link " + props.aboutActive} href="/about">About</a>
 
                     <div className="nav-item dropdown ">
                         <a className={"nav-link dropdown-toggle " + props.projectsActive} href="/projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,7 +27,7 @@ const NavBar = (props) => (
 
                     </div>
 
-                    <a className={"nav-item nav-link " + props.contactActive}  href="/contact">Contact</a>
+                    <a className={"nav-item nav-link " + props.contactActive} href="/contact">Contact</a>
                 </div>
             </div>
         </div>
