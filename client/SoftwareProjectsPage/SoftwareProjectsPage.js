@@ -4,12 +4,12 @@ import NavBar from '../components/NavBar/NavBar'
 import Banner from '../components/Banner/Banner'
 import SoftwareImg from './software.jpg'
 import Footer from '../components/Footer/Footer'
+import Logo from '../src/img/name.png'
 
 const SoftwareProjectsPage = () => (
     <div id="software-projects">
-        <NavBar projectsActive="active"/>
+        <NavBar logo={"../" + Logo} projectsActive="active"/>
         <Banner image={"." + SoftwareImg} title="Software Projects" description="Application Development \ Databases \ Web Development"/>
-        <h1 className="container">Software Projects Page</h1>
         <Footer/>
     </div>
 )

@@ -1,14 +1,14 @@
 import React from 'react'
 import './HomeBanner.css'
 
-const HomeBanner = () => (
-    <div id="home-banner">
+const HomeBanner = (props) => (
+    <div id="home-banner" className="d-flex align-items-center">
         <div id="banner-content">
             <div className="display-1">
-                Felipe Galaviz
+                {props.name}
             </div>
             <div className="display-4">
-                Computer Engineer
+                {props.title}
             </div>
             <div id="site-button-links" className="m-3">
                 <a href="/about" className="btn btn-info btn-lg mb-2 mb-md-0">About Me</a>

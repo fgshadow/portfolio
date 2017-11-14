@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     entry: {
         home:     './client/HomePage.js',
-        about:    './client/AboutPage.js',
+        about:    './client/AboutPage/AboutPage.js',
         projects: './client/ProjectsPage.js',
         hardware: './client/HardwareProjectsPage/HardwareProjectsPage.js',
         software: './client/SoftwareProjectsPage/SoftwareProjectsPage.js',

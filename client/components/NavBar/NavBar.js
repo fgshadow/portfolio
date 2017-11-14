@@ -4,7 +4,7 @@ import './NavBar.css'
 const NavBar = (props) => (
     <nav id="navigation-bar" className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container">
-            <div className="navbar-brand">Felipe Galaviz</div>
+            <div className="navbar-brand" style={{backgroundImage: 'url(' + props.logo + ')'}}></div>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

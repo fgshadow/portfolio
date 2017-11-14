@@ -1,4 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
-    margin-top: 56px;
+    padding-top: 56px;
     background-color: #E4ECEE;
+    padding-bottom: 190px;
+    min-height: 100%;
+    position: relative;
 }

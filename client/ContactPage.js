@@ -1,12 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import NavBar from './components/NavBar/NavBar'
+import RegistrationForm from './components/RegistrationForm/RegistrationForm'
 import Footer from './components/Footer/Footer'
+import Logo from './src/img/name.png'
 
 const ContactPage = () => (
     <div id="contact-page">
-        <NavBar contactActive="active"/>
-        <h1 className="container">Contact Page</h1>
+        <NavBar logo={Logo} contactActive="active"/>
+        <RegistrationForm/>
         <Footer/>
     </div>
 )
